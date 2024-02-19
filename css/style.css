@@ -1,0 +1,944 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat,sans-serif;
+    
+}
+
+
+body header, main {
+    background-color: #1c77c3;
+}
+
+/* Estilo de la pagina Index */
+/* Trabjando con el Header */
+
+header nav{
+    width: 100%;
+    font-size: small;
+    font-weight: 580;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+    position: fixed;
+    padding: 12px 10px;
+    background-color: #1c77c3;
+    
+}
+
+
+.image-header{
+    width: 50;
+    margin-left: 2%;
+}
+
+header nav img{
+    width: 50;
+    display: flex;
+    margin-left: 2%;
+}
+
+header nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+
+}
+
+header nav ul a:active{
+    color: gray;
+}
+
+.header-menu-item1{
+    margin-left: 10%;
+}
+
+.header-menu-item2{
+    margin-right: 1.5%;
+}
+
+.header-menu-item2-botton a{
+    background-color: f39237;
+    border-radius: 0.63rem;
+}
+
+.header-menu-item2-botton a:hover{
+    background-color: white;
+    color: #f39237;
+    border-radius: 0.63rem;
+}
+
+
+/* Trabjando con el Main */
+
+
+.main-main-tittle{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-top: -2%;
+    align-items: center;
+    color: white;
+    font-size: large;
+}
+
+.main-tittle-image{
+    width: 55%;
+    height: 50%;
+}
+
+.main-tittle-image img{
+    width: 98%;
+    border-radius: 0.63rem;
+    margin-left: 2%;
+}
+
+.main-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 6%;
+}
+
+
+
+
+.main-tittle h1{
+    width: 500px;
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+.main-tittle p{
+    width: 60%;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.main-tittle a{
+    text-decoration: none;
+    color: white;
+    background-color: f39237;
+    border-radius: 0.63rem;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+/* 
+Segunda seccion del main */
+
+#secondSecondTittle{
+    margin-top: 18%;
+}
+
+#secondSecondTittle .second-tittle-ground{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    margin-top: 10%;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-size:large;
+}
+
+#secondSecondTittle h2{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 13%;
+    font-size:50px;
+}
+
+
+#secondSecondTittle .second-tittle-image img{
+    width: 70%;
+    margin-top: 10%;
+}
+
+#secondSecondtittle .second-tittle-ground-three .second-tittle-image img{
+    width: 70%;
+    margin-top: 20%;
+}
+
+
+
+/* 
+Tercer seccion del main +100 productos con sus precios*/
+
+
+.third-tittle-gr{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+body main .third-tittle-gr .third-tittle-ground{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 250px;
+    margin-top: 10%;
+    align-items: center;
+    color: white;
+    font-size: large;
+    
+}
+
+.third-tittle-image{
+    width: 50%;
+    height: 50%;
+}
+
+.third-tittle-image img{
+    width: 100%;
+    border-radius: 0.63rem;
+    margin-left: 2%;
+}
+
+
+
+
+.third-tittle-ground-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+}
+
+.third-tittle-ground-one h2{
+    font-size: 73px;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 5.4%;
+}
+
+.third-tittle-ground-one p{
+    font-size: 20px;
+    text-align: center;
+    width: 55%;
+}
+
+
+/* 
+Cuarta seccion del main +10 supermercados para comparar*/
+
+.third-tittle-grone{
+    display: flex;
+    flex-direction: column;
+}
+
+body main .third-tittle-grone .third-tittle-ground-grone{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 250px;
+    margin-top: 20%;
+    align-items: center;
+    color: white;
+    font-size: large;
+    
+}
+
+
+.third-tittle-image-two{
+    width: 50%;
+    height: 50%;
+}
+
+
+.third-tittle-image-two img{
+    width: 90%;
+    border-radius: 0.63rem;
+    margin-left: 05%;
+}
+
+
+.third-tittle-ground-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+}
+
+
+.third-tittle-ground-two h2{
+    font-size: 68px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5.4%;
+}
+
+.third-tittle-ground-two p{
+    font-size: 20px;
+    text-align: center;
+    width: 55%;
+}
+
+/* 
+Tercer seccion del main +100 productos con sus precios*/
+
+
+.third-tittle-gr{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+body main .third-tittle-gr .third-tittle-ground{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 250px;
+    margin-top: 10%;
+    align-items: center;
+    color: white;
+    font-size: large;
+    
+}
+
+.third-tittle-image{
+    width: 50%;
+    height: 50%;
+}
+
+.third-tittle-image img{
+    width: 100%;
+    border-radius: 0.63rem;
+    margin-left: 2%;
+}
+
+
+
+
+.third-tittle-ground-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+}
+
+.third-tittle-ground-one h2{
+    font-size: 73px;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 5.4%;
+}
+
+.third-tittle-ground-one p{
+    font-size: 20px;
+    text-align: center;
+    width: 55%;
+}
+
+
+/* 
+Cuarta seccion del main +10 supermercados para comparar*/
+
+.third-tittle-grtwo{
+    display: flex;
+    flex-direction: column;
+}
+
+body main .third-tittle-grtwo .third-tittle-ground-grtwo{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 250px;
+    margin-top: 20%;
+    align-items: center;
+    color: white;
+    font-size: large;
+    
+}
+
+
+.third-tittle-image-three{
+    width: 50%;
+    height: 50%;
+}
+
+
+.third-tittle-image-three img{
+    width: 75%;
+    border-radius: 0.63rem;
+    margin-left: 05%;
+}
+
+
+.third-tittle-ground-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20%;
+}
+
+
+.third-tittle-ground-three h2{
+    font-size: 70px;
+    text-align: center;
+    width: 75%;
+    margin-bottom: 5.4%;
+}
+
+.third-tittle-ground-three p{
+    font-size: 20px;
+    text-align: center;
+    width: 55%;
+}
+
+
+.third-tittle-grtwo-button{
+    width: 100%;
+    margin-top: 20%;
+    justify-content: center;
+    
+}
+
+.third-tittle-grtwo-button a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    background-color: #f39237;
+    border-radius: 0.63rem;
+    padding: 12px;
+    margin-left: 35%;
+}
+
+
+/* 
+Seccion Adios a los precios caros*/
+
+.fourd-main-tittle{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    margin-top: 5%;
+    align-items: center;
+    color:#021f54;
+    font-size: large;
+    background-color: white;
+
+}
+
+.fourd-tittle-image{
+    width: 55%;
+    height: 50%;
+    background-color: white;
+    margin-bottom: 10%;
+}
+
+.fourd-tittle-image img{
+    width: 100%;
+    border-radius: 2rem;
+    margin-left: 5%;
+}
+
+.fourd-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 6%;
+    background-color: white;
+}
+
+
+
+
+.fourd-tittle h2{
+    width: 500px;
+    font-size: 50px;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.fourd-tittle a{
+    text-decoration: none;
+    color: #021f54;
+    background-color: f39237;
+    border-radius: 0.63rem;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+
+
+/* 
+Footer*/
+
+footer{
+    background-color: black;
+}
+
+footer nav{
+    height: 15%;
+    width: 100%;
+    font-size: small;
+    font-weight: 580;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    position: sticky;
+    justify-content:flex-start;
+    background-color: black;
+    
+    
+}
+
+
+.image-footer{
+    width: 50;
+    margin-left: 2%;
+    background-color: black;
+}
+
+footer nav img{
+    width: 50;
+    display: flex;
+    margin-left: 2%;
+    background-color: black;
+}
+
+footer nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    
+    
+}
+
+footer nav ul a{
+    text-decoration: none;
+    color: aaaaaa;
+    padding: 12px;
+    background-color: black;
+    
+
+}
+
+.footer-menu-item1{
+    margin-left: 8%;
+    padding: 7px;
+    background-color: black;
+}
+
+
+.footer-left-text{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    color: aaaaaa;
+    margin-left: 0.7%;
+    background-color: black;
+}
+
+
+/* Estilo de la pagina Log In */
+
+
+.main-tittle-login h1{
+    margin-top: -7%;
+    font-size: 25px;
+    width: 210px;
+    text-align: center;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: -3%;
+}
+
+.main-tittle-login a{
+    width: 30%;
+    margin-left: 1%;
+
+}
+
+.main-tittle-login img{
+    width: 100%;
+    
+}
+
+.main-tittle-login{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+.main-tittle-login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-tittle-login form input{
+    background-color: white;
+    border-style: none;
+    border-radius: 0.63rem;
+    padding: 10px  35px;
+    margin: 5%;
+}
+
+
+.main-tittle-login form input[type=submit]{
+    background-color: f39237;
+    border-radius: 0.63rem;
+    padding: 10px  35px;
+    color: white;
+    margin-top: 10%;
+    font-weight: 580;
+}
+
+
+
+
+
+
+
+.login-image-mc img{
+    width: 100%;
+    border-radius: 0.63rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.main-forgetlogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    
+}
+
+.main-forgetlogin2 {
+    margin-top: 10%;
+    
+}
+
+.main-forgetlogin1, .main-forgetlogin2{
+    font-weight:200;
+}
+
+
+
+/* Estilo de la pagina Select Prices */
+
+/* Estilo GRID */
+.body-selectprices{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: 50px  auto  50px;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+}
+
+.body-selectprices header{
+    background-color:white;
+    grid-area: header ;
+}
+
+.body-selectprices main{
+    background-color:white;
+    grid-area: main ;
+}
+
+.body-selectprices footer{
+    background-color: white;
+    grid-area: footer;
+}
+
+
+/* Estilo Header SelectPrices */
+
+.body-selectprices header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+    font-size: 13px;
+}
+
+
+.body-selectprices header a{
+    width: 50;
+    margin-left: 2%;
+}
+
+.body-selectprices header img{
+    width: 50;
+}
+
+.body-selectprices header h2{
+    margin-left: 5%;
+}
+
+
+/* Main Selectprices */
+
+ .main-selectprices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-selectprices .form-search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+.main-selectprices .form-search input{
+    border-radius: 0.63rem;
+    border-style:solid;
+    padding: 10px  35px;
+    font-style: italic;
+}
+
+
+/* Items de buscar */
+
+
+.main-selectprices-items{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    flex-wrap:wrap;
+
+}
+
+.selectprices-item1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 31%;
+    margin: 1%;
+    font-size: 10px;
+}
+
+.selectprices-item1-image{
+    width: 40%;
+    
+}
+
+.selectprices-item1-image img{
+    width: 100%;
+    border-radius: 0.63rem;
+    object-fit: cover;
+}
+
+.selectprices-item-1-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+
+.selectprices-item-1-content form{
+    display: flex;
+    flex-direction: column;
+}
+
+.selectprices-item-1-content form select{
+    border-radius: 0.63rem;
+    border-style:solid;
+    padding: 3px  10px;
+    width: 100%;
+    margin-bottom: 3%;
+    font-size: 11px;
+    margin-top: 5%;
+}
+
+
+.selectprices-item-1-content form input[type=number]{
+    width: 30%;
+    padding: 2px;
+    border-radius: 0.63rem;
+    margin-bottom: 3%;
+    border-style:ridge;
+    font-size: 10px;
+}
+
+.selectprices-item-1-content form input[type=submit]{
+    width: 50%;
+    background-color: f39237;
+    color: white;
+    border-style: none;
+    padding: 4px;
+    border-radius: 0.63rem;
+    font-size: 10px;
+    cursor:pointer;
+}
+
+.selectprices-item-1-content form input[type=submit]:hover{
+    width: 50%;
+    background-color: white;
+    border-color: f39237;
+    color: f39237;
+    border-style:solid;
+    border-width: 1px;
+    padding: 4px;
+    border-radius: 0.63rem;
+    font-size: 10px;
+}
+
+
+
+.main-selectprices-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.main-selectprices-btn input{
+    background-color: f39237;
+    color: white;
+    border-style: none;
+    padding: 12px;
+    border-radius: 0.63rem;
+    font-size: 25px;
+    font-weight:400;
+    width: fit-content;
+}
+
+.main-selectprices-btn input:hover{
+    color: f39237;
+    background-color:white ;
+    border-style:solid ;
+    border-color: #f39237 ;
+    cursor: pointer;
+}
+
+
+
+ @media (max-width:480px){
+
+    .body-selectprices header{
+        display: flex;
+        justify-content: center;
+        font-size: 8px;
+    }
+
+    .body-selectprices header a{
+        width: 25;
+        margin-left: 2%;
+    }
+    
+    .body-selectprices header img{
+        width: 25;
+    }
+    
+    .body-selectprices header h2{
+        margin-left: 5%;
+    }
+
+    /* Buscador de productos */
+    .main-selectprices .form-search input{
+        border-radius: 0.63rem;
+        border-style:solid;
+        padding: 5px  30px;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    .main-selectprices-items{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        flex-wrap:wrap;
+    }
+
+    .selectprices-item1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin: 3%;
+        font-size: 12px;
+    }
+
+    .selectprices-item1-image{
+        width: 40%;
+    }
+
+    .selectprices-item-1-content form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-selectprices-btn input{
+        font-size: 11px;
+        font-weight:525;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+ }
+
+
+
+
+/* Pagina Compare Prices */
+
+#comparepricesPag header, #comparepricesPag main{
+    background-color: white;
+}
+
+
+.main_tittle_comparprices{
+    color: gray;
+}
+
+
+.row g-0{
+    background-color: #021f54 !important;
+}
+
+#comparepricesPag main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main_tittle_comparprices{
+    display: flex;
+    justify-content: center;
+}
+
+
