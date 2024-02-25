@@ -942,3 +942,368 @@ footer nav ul a{
 }
 
 
+
+/* indextest */
+
+
+/* boton header hover */
+#seccionIndexTest1 .btn.btn-warning.text-white:hover{
+    background-color: white !important;
+    color:#f39237 !important;
+}
+
+#navbarNav .nav-link{
+    color: white !important;
+}
+
+
+.text-center{
+    color: white !important;
+}
+
+/* .h1{
+    color: white !important;
+} */
+/* #headerIndexTest{
+    width: 100%;
+    padding: 2px 10px;
+    position: fixed;
+} */
+
+.main_h1_tittlindext{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+/* IndexTest Html */
+#seccionIndexTest3 .main_h2_section3{
+    display: flex !important;
+    text-align: center !important;
+}
+
+#seccionIndexTest3 .row.d-flex.flex-row-reverse:nth-child(3){
+    margin-top: 5% !important;
+}
+
+
+/* boton del fron principal */
+#seccionIndexTest1 .btn.btn-warning.text-white:hover{
+    background-color: white !important;
+    color:#f39237 !important;
+}
+
+/* Footer IndexTest */
+#footerIndextest1{
+    background-color: 444444;
+}
+
+#footerIndextest1 nav{
+    height: 15%;
+    width: 100%;
+    font-size: small;
+    font-weight: 580;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    position: sticky;
+    justify-content:flex-start !important;
+    background-color: 444444;
+    
+    
+}
+
+
+.image-footer-indextest1{
+    width: 50;
+    margin-left: 2%;
+    background-color: 444444;
+}
+
+footer nav img{
+    width: 50;
+    display: flex;
+    margin-left: 2%;
+    background-color: 444444;
+}
+
+footer nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: 444444;
+    
+    
+}
+
+footer nav ul a{
+    text-decoration: none;
+    color: aaaaaa;
+    padding: 12px;
+    background-color: 444444;
+    
+
+}
+
+.footer-menu-item1-indextest1{
+    margin-left: 8%;
+    padding: 7px;
+    background-color: 444444;
+}
+
+
+.footer-left-text-indextest1{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    color: aaaaaa;
+    margin-left: 0.7%;
+    background-color: 444444;
+}
+
+.footer-left-text-indextest1 h2{
+    font-size: 15px;
+}
+
+
+
+
+
+@media (max-width:480px){
+
+    /* header .container-fluid.d-flex {
+        background-color: gray !important;
+        padding: unset !important;
+    } */
+
+    header .navbar-collapse{
+        display: flex;
+        flex-direction: column ;
+        background-color: 444444 !important;
+        padding: unset !important;
+        border-radius: 1.15rem;
+    }
+
+    #navbarNav .navbar-nav:nth-child(2){
+        margin-top: 5% !important;
+    }
+
+
+      /* Ensuring that the menu is not displayed by default */
+      header .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    /* This will show the menu when the navbar is toggled */
+    header .navbar-collapse.collapse.show {
+        display: flex !important;
+    }
+
+    .col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center{
+        display: unset !important;
+        align-items:unset !important; ;
+    }
+    
+
+    .text-center {
+        font-size: 8px !important ;
+        width: 65% !important;
+    }
+
+
+    .main_h1_tittlindext{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 28px  !important;
+        width: 380px !important;
+    }
+
+    #seccionIndexTest1 .btn.btn-warning.text-white{
+        font-size: 10px !important;
+    }
+
+    #seccionIndexTest1 .row.justify-content-start{
+        display: flex;
+        justify-content: center!important;
+    }
+
+    #seccionIndexTest1 .col-12.col-lg-6 .img-fluid{
+        width: 80%;
+        border-radius: 1.20rem;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    /* secctionII Index*/
+
+    #seccionIndexTest2 .main_h1_tittlindext{
+        width: 350px !important;
+        font-size:28px !important;
+        margin-top: 10%!important;
+    }
+
+    #seccionIndexTest2 h3{
+        font-weight: bolder !important;
+        width: 170px !important;
+        font-size:13px !important;
+    }
+
+    #seccionIndexTest2 p{
+        width: 200px !important;
+        font-size:08px !important;
+    }
+
+    #seccionIndexTest2 .img-fluid{
+        width: 40% !important;
+        border-radius: 0.80rem;
+        margin-top: -3%;
+    }
+
+    #seccionIndexTest2 .container-fluid.d-flex{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    #seccionIndexTest2 .container-fluid.d-flex{
+        margin-top: unset !important;
+    }
+
+
+    #seccionIndexTest3 .container-fluid{
+        margin-top: 10%;
+    }
+
+    #seccionIndexTest3 .main_h2_section3{
+        width: 240px !important;
+        font-size:28px !important;
+    }
+
+    #seccionIndexTest3 .text-center{
+        width: 200px !important;
+        font-size:08px !important;
+    }
+
+    #seccionIndexTest3 .col-12.col-lg-6{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    #seccionIndexTest3 .img-fluid{
+
+        width: 40% !important;
+        border-radius: 0.80rem;
+        margin-top: -3%;
+    }
+
+
+    #seccionIndexTest3 .row.d-flex.flex-row-reverse{
+        margin-top: unset;
+    }
+
+    #seccionIndexTest3 .container-fluid{
+        margin-top: 15% !important;
+    }
+
+    #seccionIndexTest3 .row.d-flex.flex-row-reverse:nth-child(2){
+        margin-top: 15% !important;
+    }
+
+    #seccionIndexTest3 .row.d-flex.flex-row-reverse:nth-child(3){
+        margin-top: 20% !important;
+    }
+
+    #seccionIndexTest3 .btn.btn-warning.text-white{
+        margin-top: 10% !important;
+    }
+
+    #seccionIndexTest3 .btn.btn-warning.text-white{
+        font-size: 10px !important;
+    }
+
+    .main_h1_tittlindext3{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 28px  !important;
+        width: 380px !important;
+        margin-top: 10%;
+    }
+
+    #seccionIndexTest4 .img-fluid{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .footer-left-text-indextest1{
+        font-size: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aaaaaa;
+        margin-left: unset !important;
+        
+    }
+    
+    #footerIndextest1 nav{
+       height: unset !important;
+        /* height: 15%;
+        width: 100%; */
+        font-size: small;
+        font-weight: 580;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+        position: sticky;
+        justify-content:flex-start;
+        /* background-color: black; */
+        
+        
+    }
+
+    
+
+    .footer-left-text-indextest1 h2{
+        font-size: 8px;
+    }
+
+
+    footer nav ul {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: unset !important;
+        font-size: 10px;
+        margin-left: unset !important;
+        
+    }
+    footer nav ul a{
+        text-decoration: none;
+        color: aaaaaa;
+        background-color: unset !important;
+        /* padding: 12px; */
+    }
+    
+    #footerIndextest1 nav ul li{
+        padding: 10px;
+    }
+        /* EBENEZER     */
+}
+
+
+.main_h1_tittlindext3{
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    color:#021f54;
+    
+    
+}
+
+
