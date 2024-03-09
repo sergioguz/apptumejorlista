@@ -1,0 +1,31 @@
+
+$paleta_colores: ( 
+    azul_primario:#1c77c3,
+    amarillo:#f39237,
+    blanco:white,
+    color_footer:444444,
+    color_footer_text:aaaaaa,
+);
+
+
+@mixin flexboxtittle($ta,$fw){
+    display: flex;
+    text-align: $ta;
+    font-weight: $fw;
+}
+
+
+@mixin media-query-mobile {
+    @media(max-width:480px){
+        @content
+    }
+}
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,21 @@
+
+//General
+@import './general/reset.scss';
+@import './general/variables.scss';
+
+
+
+//Layout
+@import './layout/header.scss';
+
+
+
+//Pages
+@import './pages/index.scss';
+@import './pages/login.scss';
+@import './pages/selectprices.scss';
+@import './pages/compareprices.scss';
+
+
+//Layout-Footer
+@import './layout/footer.scss';

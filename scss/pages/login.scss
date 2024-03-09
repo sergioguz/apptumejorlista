@@ -1,0 +1,116 @@
+/* Estilo de la pagina Log In */
+
+
+.main-login{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: -3%;
+
+    h1{
+        margin-top: -7%;
+        font-size: 25px;
+        width: 210px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+.main-tittle-login{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+
+    form{
+       @extend .main-tittle-login;
+
+        input{
+            background-color: white;
+            border-style: none;
+            border-radius: 0.63rem;
+            padding: 10px  35px;
+            margin: 5%;
+    }[type=submit]{
+        background-color: f39237;
+        border-radius: 0.63rem;
+        padding: 10px  35px;
+        color: white;
+        margin-top: 10%;
+        font-weight: 580;
+    }
+    
+}
+        a{
+            width: 30%;
+            margin-left: 1%;
+        }
+
+        img{
+            width: 100%;
+            
+        }
+}
+
+
+
+
+.main-forgetlogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+
+    .main-forgetlogin2 {
+        margin-top: 10%;
+        
+    }
+    .main-forgetlogin1, .main-forgetlogin2{
+    font-weight:200;
+}
+}
+
+
+.login-image-mc img{
+    width: 100%;
+    border-radius: 0.63rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@include media-query-mobile() 
+{/* login para mobiles */
+    
+    #bodyLogin {
+        background-color: #1c77c3;
+    }
+
+    .main-login{
+        
+        display: flex;
+        color: white;
+        margin-top: 8%;
+    }
+
+    .login-image-mc img{
+        display: none;
+    }
+
+    .main-tittle-login form{
+        margin-top: 10%;
+    }
+
+    .main-tittle-login h1{
+        margin-top: 2%;
+        ;
+    }
+
+    .main-tittle-login img{
+        margin-top: 15%;
+        
+    }
+}

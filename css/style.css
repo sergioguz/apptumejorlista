@@ -565,7 +565,6 @@ footer nav ul a{
 
 /* Estilo de la pagina Log In */
 
-
 .main-tittle-login h1{
     margin-top: -7%;
     font-size: 25px;
@@ -948,10 +947,12 @@ footer nav ul a{
 /* indextest */
 
 
+
 /* boton header hover */
 #seccionIndexTest1 .btn.btn-warning.text-white:hover{
     background-color: white !important;
     color:#f39237 !important;
+    
 }
 
 #navbarNav .nav-link{
@@ -1024,6 +1025,7 @@ footer nav ul a{
     background-color: 444444;
 }
 
+/* Cambiado o direccionado por el id nav img */
 footer nav img{
     width: 50;
     display: flex;

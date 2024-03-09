@@ -1,0 +1,42 @@
+
+
+
+/* Pagina Compare Prices */
+
+#comparepricesPag{
+    header{
+        background-color: white !important;
+    }
+    main{
+        background-color: white !important;
+        // background-image: radial-gradient(circle,blue,brown);
+}  
+}
+
+
+.main_tittle_comparprices{
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+
+// .container-fluid .d-flex .flex-column .row .g-0{
+//     transform: scale(2,1);
+// }
+
+.row g-0{
+    background-color: #021f54 !important;
+}
+
+
+#comparepricesPag{
+    
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+

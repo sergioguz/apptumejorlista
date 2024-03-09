@@ -1,0 +1,77 @@
+
+
+body {
+    header{
+        background-color: map-get($paleta_colores,azul_primario);
+    };
+    main{
+        background-color: map-get($paleta_colores, azul_primario);
+    }
+    
+}
+
+
+
+/* boton header hover */
+#seccionIndexTest1{
+    .btn.btn-warning.text-white:hover{
+        background-color:map-get($paleta_colores,blanco) !important;
+        color:map-get($paleta_colores,amarillo) !important;
+    }
+}
+
+
+#navbarNav {
+    .nav-link{color: map-get($paleta_colores,blanco) !important}
+}
+
+
+.text-center{
+    color:  map-get($paleta_colores,blanco)  !important;
+}
+
+
+.main_h1_tittlindext{
+    @include flexboxtittle(center,bolder);
+    color: map-get($paleta_colores,blanco);
+}
+
+
+
+
+
+
+/* IndexTest Html */
+#seccionIndexTest3 {
+    .main_h2_section3{
+        display: flex !important;
+        text-align: center !important;
+    }
+}
+
+
+#seccionIndexTest3 {
+    .row.d-flex.flex-row-reverse &:nth-child(3){
+        margin-top: 5% !important;
+    }
+}
+
+
+/* boton del fron principal */
+#seccionIndexTest1{
+    .btn.btn-warning.text-white &:hover{
+        background-color: map-get($paleta_colores,blanco) !important;
+        color:map-get($paleta_colores,amarillo) !important;
+    }
+}
+
+.main_h1_tittlindext3{
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    color:#021f54;
+    
+    
+}
+  
+

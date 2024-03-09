@@ -1,0 +1,686 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header .collapse .navbar-collapse .d-flex .justify-content-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+header nav {
+  width: 100%;
+  font-size: small;
+  font-weight: 580;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+  position: fixed;
+  padding: 12px 10px;
+  background-color: #1c77c3;
+}
+header nav img {
+  width: 50;
+  display: flex;
+  margin-left: 2%;
+}
+header .image-header {
+  width: 50;
+  margin-left: 2%;
+}
+header nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+}
+header nav ul a:active {
+  color: gray;
+}
+
+.header-menu-item1 {
+  margin-left: 10%;
+}
+
+.header-menu-item2 {
+  margin-right: 1.5%;
+}
+
+.header-menu-item2-botton a {
+  background-color: f39237;
+  border-radius: 0.63rem;
+  border-color: #f39237 !important;
+}
+
+.header-menu-item2-botton a:hover {
+  background-color: white;
+  color: #f39237;
+  border-radius: 0.63rem;
+  border-color: #f39237;
+}
+
+body header {
+  background-color: #1c77c3;
+}
+body main {
+  background-color: #1c77c3;
+}
+
+/* boton header hover */
+#seccionIndexTest1 .btn.btn-warning.text-white:hover {
+  background-color: white !important;
+  color: #f39237 !important;
+}
+
+#navbarNav .nav-link {
+  color: white !important;
+}
+
+.text-center {
+  color: white !important;
+}
+
+.main_h1_tittlindext {
+  display: flex;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+/* IndexTest Html */
+#seccionIndexTest3 .main_h2_section3 {
+  display: flex !important;
+  text-align: center !important;
+}
+
+.row.d-flex.flex-row-reverse #seccionIndexTest3:nth-child(3) {
+  margin-top: 5% !important;
+}
+
+/* boton del fron principal */
+.btn.btn-warning.text-white #seccionIndexTest1:hover {
+  background-color: white !important;
+  color: #f39237 !important;
+}
+
+.main_h1_tittlindext3 {
+  display: flex;
+  text-align: center;
+  font-weight: bolder;
+  color: #021f54;
+}
+
+/* Estilo de la pagina Log In */
+.main-login {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: -3%;
+}
+.main-login h1 {
+  margin-top: -7%;
+  font-size: 25px;
+  width: 210px;
+  text-align: center;
+}
+
+.main-tittle-login, .main-tittle-login form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-tittle-login form input {
+  background-color: white;
+  border-style: none;
+  border-radius: 0.63rem;
+  padding: 10px 35px;
+  margin: 5%;
+}
+.main-tittle-login form [type=submit] {
+  background-color: f39237;
+  border-radius: 0.63rem;
+  padding: 10px 35px;
+  color: white;
+  margin-top: 10%;
+  font-weight: 580;
+}
+.main-tittle-login a {
+  width: 30%;
+  margin-left: 1%;
+}
+.main-tittle-login img {
+  width: 100%;
+}
+
+.main-forgetlogin {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 10px;
+}
+.main-forgetlogin .main-forgetlogin2 {
+  margin-top: 10%;
+}
+.main-forgetlogin .main-forgetlogin1, .main-forgetlogin .main-forgetlogin2 {
+  font-weight: 200;
+}
+
+.login-image-mc img {
+  width: 100%;
+  border-radius: 0.63rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 480px) {
+  /* login para mobiles */
+  #bodyLogin {
+    background-color: #1c77c3;
+  }
+  .main-login {
+    display: flex;
+    color: white;
+    margin-top: 8%;
+  }
+  .login-image-mc img {
+    display: none;
+  }
+  .main-tittle-login form {
+    margin-top: 10%;
+  }
+  .main-tittle-login h1 {
+    margin-top: 2%;
+  }
+  .main-tittle-login img {
+    margin-top: 15%;
+  }
+}
+/* Estilo de la pagina Select Prices */
+/* Estilo GRID */
+.body-selectprices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+}
+.body-selectprices header {
+  /* Estilo Header SelectPrices */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: gray;
+  font-size: 13px;
+  background-color: white;
+  grid-area: header;
+}
+.body-selectprices header a {
+  width: 50;
+  margin-left: 2%;
+}
+.body-selectprices header img {
+  width: 50;
+}
+.body-selectprices header h2 {
+  margin-left: 5%;
+}
+.body-selectprices main {
+  background-color: white;
+  grid-area: main;
+}
+.body-selectprices footer {
+  background-color: white;
+  grid-area: footer;
+}
+
+/* Main Selectprices */
+.main-selectprices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-selectprices .form-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+.main-selectprices .form-search input {
+  border-radius: 0.63rem;
+  border-style: solid;
+  padding: 10px 35px;
+  font-style: italic;
+}
+
+/* Items de buscar */
+.main-selectprices-items {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+
+.selectprices-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 31%;
+  margin: 1%;
+  font-size: 10px;
+}
+
+.selectprices-item1-image {
+  width: 40%;
+}
+.selectprices-item1-image img {
+  width: 100%;
+  border-radius: 0.63rem;
+  object-fit: cover;
+}
+
+.selectprices-item-1-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+.selectprices-item-1-content form {
+  display: flex;
+  flex-direction: column;
+}
+.selectprices-item-1-content form select {
+  border-radius: 0.63rem;
+  border-style: solid;
+  padding: 3px 10px;
+  width: 100%;
+  margin-bottom: 3%;
+  font-size: 11px;
+  margin-top: 5%;
+}
+.selectprices-item-1-content form input[type=number] {
+  width: 30%;
+  padding: 2px;
+  border-radius: 0.63rem;
+  margin-bottom: 3%;
+  border-style: ridge;
+  font-size: 10px;
+}
+.selectprices-item-1-content form input[type=submit] {
+  width: 50%;
+  background-color: f39237;
+  color: white;
+  border-style: none;
+  padding: 4px;
+  border-radius: 0.63rem;
+  font-size: 10px;
+  cursor: pointer;
+}
+.selectprices-item-1-content form input[type=submit]:hover {
+  width: 50%;
+  background-color: white;
+  border-color: f39237;
+  color: f39237;
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px;
+  border-radius: 0.63rem;
+  font-size: 10px;
+}
+
+.main-selectprices-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.main-selectprices-btn input {
+  background-color: f39237;
+  color: white;
+  border-style: none;
+  padding: 12px;
+  border-radius: 0.63rem;
+  font-size: 25px;
+  font-weight: 400;
+  width: fit-content;
+}
+.main-selectprices-btn input:hover {
+  color: f39237;
+  background-color: white;
+  border-style: solid;
+  border-color: #f39237;
+  cursor: pointer;
+}
+
+/* Pagina Compare Prices */
+#comparepricesPag header {
+  background-color: white !important;
+}
+#comparepricesPag main {
+  background-color: white !important;
+}
+
+.main_tittle_comparprices {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.row g-0 {
+  background-color: #021f54 !important;
+}
+
+#comparepricesPag main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer Index (Pagina Principal) */
+footer nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: 444444;
+}
+footer nav ul a {
+  text-decoration: none;
+  padding: 12px;
+  color: aaaaaa;
+  background-color: 444444;
+}
+
+#footerIndextest1 {
+  background-color: 444444;
+}
+#footerIndextest1 nav {
+  height: 15%;
+  width: 100%;
+  font-size: small;
+  font-weight: 580;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1%;
+  position: sticky;
+  justify-content: flex-start !important;
+  background-color: 444444;
+}
+#footerIndextest1 nav img {
+  width: 50;
+  display: flex;
+  margin-left: 2%;
+  background-color: 444444;
+}
+
+.image-footer-indextest1 {
+  width: 50;
+  margin-left: 2%;
+  background-color: 444444;
+}
+
+.footer-menu-item1-indextest1 {
+  margin-left: 8%;
+  padding: 7px;
+  background-color: 444444;
+}
+
+.footer-left-text-indextest1 {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.7%;
+  color: aaaaaa;
+  background-color: 444444;
+}
+
+.footer-left-text-indextest1 h2 {
+  font-size: 15px;
+}
+
+@media (max-width: 480px) {
+  /* Diseño Responsive para Mobiles de todas las paginas */
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    background-color: 444444 !important;
+    padding: unset !important;
+    border-radius: 1.15rem;
+  }
+  /* Ensuring that the menu is not displayed by default */
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  /* This will show the menu when the navbar is toggled */
+  .navbar-collapse.collapse.show {
+    display: flex !important;
+  }
+  .navbar-nav #navbarNav:nth-child(2) {
+    margin-top: 5% !important;
+  }
+  .col-12 .col-lg-6 .d-flex .flex-column .justify-content-center .align-items-center {
+    display: unset !important;
+    align-items: unset !important;
+  }
+  .text-center {
+    font-size: 15px !important;
+    width: 80% !important;
+  }
+  .main_h1_tittlindext {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px !important;
+    width: 380px !important;
+  }
+  #seccionIndexTest1 .btn.btn-warning.text-white {
+    font-size: 15px !important;
+  }
+  #seccionIndexTest1 .row.justify-content-start {
+    display: flex;
+    justify-content: center !important;
+  }
+  #seccionIndexTest1 .col-12.col-lg-6 .img-fluid {
+    width: 80%;
+    border-radius: 1.2rem;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  /* secctionII Index*/
+  #seccionIndexTest2 .main_h1_tittlindext {
+    width: 350px !important;
+    font-size: 28px !important;
+    margin-top: 10% !important;
+  }
+  #seccionIndexTest2 h3 {
+    font-weight: bolder !important;
+    width: 100% !important;
+    font-size: 32px !important;
+  }
+  #seccionIndexTest2 p {
+    width: 300px !important;
+    font-size: 18px !important;
+  }
+  #seccionIndexTest2 .img-fluid {
+    width: 60% !important;
+    border-radius: 0.8rem;
+    margin-top: -3%;
+  }
+  #seccionIndexTest2 .container-fluid.d-flex {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #seccionIndexTest2 .container-fluid.d-flex {
+    margin-top: 6% !important;
+  }
+  #seccionIndexTest3 .container-fluid {
+    margin-top: 10%;
+  }
+  #seccionIndexTest3 .main_h2_section3 {
+    width: 100% !important;
+    font-size: 45px !important;
+  }
+  #seccionIndexTest3 .text-center {
+    width: 300px !important;
+    font-size: 15px !important;
+  }
+  #seccionIndexTest3 .col-12.col-lg-6 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+  #seccionIndexTest3 .img-fluid {
+    width: 70% !important;
+    border-radius: 0.8rem;
+    margin-top: -3%;
+  }
+  #seccionIndexTest3 .row.d-flex.flex-row-reverse {
+    margin-top: unset;
+  }
+  #seccionIndexTest3 .container-fluid {
+    margin-top: 15% !important;
+  }
+  #seccionIndexTest3 .row.d-flex.flex-row-reverse:nth-child(2) {
+    margin-top: 5% !important;
+  }
+  #seccionIndexTest3 .row.d-flex.flex-row-reverse:nth-child(3) {
+    margin-top: 20% !important;
+  }
+  #seccionIndexTest3 .btn.btn-warning.text-white {
+    margin-top: 10% !important;
+  }
+  #seccionIndexTest3 .btn.btn-warning.text-white {
+    font-size: 20px !important;
+  }
+  .main_h1_tittlindext3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px !important;
+    width: 380px !important;
+    margin-top: 10%;
+  }
+  #seccionIndexTest4 .img-fluid {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .footer-left-text-indextest1 {
+    font-size: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aaaaaa;
+    margin-left: unset !important;
+  }
+  #footerIndextest1 nav {
+    height: unset !important;
+    /* height: 15%;
+    width: 100%; */
+    font-size: small;
+    font-weight: 580;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+    position: sticky;
+    justify-content: flex-start;
+    /* background-color: black; */
+  }
+  .footer-left-text-indextest1 h2 {
+    font-size: 8px;
+  }
+  footer nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: unset !important;
+    font-size: 10px;
+    margin-left: unset !important;
+  }
+  footer nav ul a {
+    text-decoration: none;
+    color: aaaaaa;
+    background-color: unset !important;
+    /* padding: 12px; */
+  }
+  #footerIndextest1 nav ul li {
+    padding: 10px;
+  }
+  /* Diseño Responsive para pagina Select Prices */
+  .body-selectprices header {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+  }
+  .body-selectprices header a {
+    width: 25;
+    margin-left: 2%;
+  }
+  .body-selectprices header img {
+    width: 25;
+  }
+  .body-selectprices header h2 {
+    margin-left: 5%;
+  }
+  /* Buscador de productos */
+  .main-selectprices .form-search input {
+    border-radius: 0.63rem;
+    border-style: solid;
+    padding: 5px 30px;
+    font-style: italic;
+    font-size: 12px;
+  }
+  .main-selectprices-items {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+  .selectprices-item1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 3%;
+    font-size: 12px;
+  }
+  .selectprices-item1-image {
+    width: 40%;
+  }
+  .selectprices-item-1-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-selectprices-btn input {
+    font-size: 11px;
+    font-weight: 525;
+    margin-left: 7%;
+    margin-top: 10%;
+  }
+  /*Diseño responsive de mobiles para pagina Compare Prices*/
+  .main_tittle_comparprices h2 {
+    text-align: center;
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
