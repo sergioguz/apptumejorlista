@@ -207,8 +207,20 @@ body main {
   .main-tittle-login form {
     margin-top: 10%;
   }
+  .main-tittle-login form input {
+    padding: 20px 55px;
+  }
+  .main-tittle-login form [type=submit] {
+    font-size: 17px;
+  }
+  .main-forgetlogin {
+    margin-top: 5%;
+    font-size: 12px;
+  }
   .main-tittle-login h1 {
     margin-top: 2%;
+    font-size: 40px;
+    width: 80%;
   }
   .main-tittle-login img {
     margin-top: 15%;
