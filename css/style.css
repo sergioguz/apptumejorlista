@@ -909,6 +909,7 @@ footer nav ul a{
         margin-left: 7%;
         margin-top: 10%;
     }
+    
 
  }
 
@@ -1153,7 +1154,7 @@ footer nav ul a{
 
     #seccionIndexTest2 h3{
         font-weight: bolder !important;
-        width: 430 !important;
+        width: unset !important;
         font-size:32px !important;
     }
 
@@ -1183,8 +1184,8 @@ footer nav ul a{
     }
 
     #seccionIndexTest3 .main_h2_section3{
-        width: 440px !important;
-        font-size:50px !important;
+        width: unset !important;
+        font-size:45px !important;
     }
 
     #seccionIndexTest3 .text-center{
@@ -1298,7 +1299,38 @@ footer nav ul a{
     #footerIndextest1 nav ul li{
         padding: 10px;
     }
-        /* EBENEZER     */
+    
+    /* login para mobiles */
+    
+    #bodyLogin {
+        background-color: #1c77c3;
+    }
+
+    .main-login{
+        
+        display: flex;
+        color: white;
+        margin-top: 8%;
+    }
+
+    .login-image-mc img{
+        display: none;
+    }
+
+    .main-tittle-login form{
+        margin-top: 10%;
+    }
+
+    .main-tittle-login h1{
+        margin-top: 2%;
+        ;
+    }
+
+    .main-tittle-login img{
+        margin-top: 15%;
+        
+    }
+
 }
 
 
