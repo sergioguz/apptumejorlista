@@ -129,33 +129,35 @@ body main {
 }
 
 /* Estilo de la pagina Log In */
-.main-login {
+#bodyLogin {
+  background-color: #1c77c3;
+}
+#bodyLogin .main-login {
   display: flex;
   flex-direction: row;
   color: white;
   margin-top: -3%;
 }
-.main-login h1 {
+#bodyLogin .main-login h1 {
   margin-top: -7%;
   font-size: 25px;
   width: 210px;
   text-align: center;
 }
-
-.main-tittle-login, .main-tittle-login form {
+#bodyLogin .main-login .main-tittle-login, #bodyLogin .main-login .main-tittle-login form {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.main-tittle-login form input {
+#bodyLogin .main-login .main-tittle-login form input {
   background-color: white;
   border-style: none;
   border-radius: 0.63rem;
   padding: 10px 35px;
   margin: 5%;
 }
-.main-tittle-login form [type=submit] {
+#bodyLogin .main-login .main-tittle-login form [type=submit] {
   background-color: f39237;
   border-radius: 0.63rem;
   padding: 10px 35px;
@@ -163,30 +165,29 @@ body main {
   margin-top: 10%;
   font-weight: 580;
 }
-.main-tittle-login a {
+#bodyLogin .main-login .main-tittle-login a {
   width: 30%;
   margin-left: 1%;
 }
-.main-tittle-login img {
+#bodyLogin .main-login .main-tittle-login img {
   width: 100%;
 }
-
-.main-forgetlogin {
+#bodyLogin .main-login .main-tittle-login .main-forgetlogin {
   display: flex;
   flex-direction: column;
   text-align: center;
   font-size: 10px;
 }
-.main-forgetlogin .main-forgetlogin2 {
+#bodyLogin .main-login .main-tittle-login .main-forgetlogin .main-forgetlogin2 {
   margin-top: 10%;
 }
-.main-forgetlogin .main-forgetlogin1, .main-forgetlogin .main-forgetlogin2 {
+#bodyLogin .main-login .main-tittle-login .main-forgetlogin .main-forgetlogin1, #bodyLogin .main-login .main-tittle-login .main-forgetlogin .main-forgetlogin2 {
   font-weight: 200;
 }
-
-.login-image-mc img {
+#bodyLogin .login-image-mc img {
+  height: 130%;
   width: 100%;
-  border-radius: 0.63rem;
+  border-radius: 0.44rem;
   object-fit: cover;
   object-position: center;
 }
@@ -196,34 +197,34 @@ body main {
   #bodyLogin {
     background-color: #1c77c3;
   }
-  .main-login {
+  #bodyLogin .main-login {
     display: flex;
     color: white;
     margin-top: 8%;
   }
-  .login-image-mc img {
-    display: none;
-  }
-  .main-tittle-login form {
-    margin-top: 10%;
-  }
-  .main-tittle-login form input {
-    padding: 20px 55px;
-  }
-  .main-tittle-login form [type=submit] {
-    font-size: 17px;
-  }
-  .main-forgetlogin {
-    margin-top: 5%;
-    font-size: 12px;
-  }
-  .main-tittle-login h1 {
+  #bodyLogin .main-login .main-tittle-login h1 {
     margin-top: 2%;
     font-size: 40px;
     width: 80%;
   }
-  .main-tittle-login img {
+  #bodyLogin .main-login .main-tittle-login img {
     margin-top: 15%;
+  }
+  #bodyLogin .main-login .main-tittle-login form {
+    margin-top: 10%;
+  }
+  #bodyLogin .main-login .main-tittle-login form input {
+    padding: 20px 55px;
+  }
+  #bodyLogin .main-login .main-tittle-login form [type=submit] {
+    font-size: 17px;
+  }
+  #bodyLogin .main-login .main-forgetlogin {
+    margin-top: 5%;
+    font-size: 12px;
+  }
+  #bodyLogin .login-image-mc img {
+    display: none;
   }
 }
 /* Estilo de la pagina Select Prices */

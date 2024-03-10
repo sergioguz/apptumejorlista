@@ -1,132 +1,138 @@
 /* Estilo de la pagina Log In */
 
-
-.main-login{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    margin-top: -3%;
-
-    h1{
-        margin-top: -7%;
-        font-size: 25px;
-        width: 210px;
-        text-align: center;
-    }
-
-}
+#bodyLogin {
+    background-color: map-get($paleta_colores, azul_primario);
 
 
 
-
-.main-tittle-login{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    align-items: center;
-
-    form{
-       @extend .main-tittle-login;
-
-        input{
-            background-color: white;
-            border-style: none;
-            border-radius: 0.63rem;
-            padding: 10px  35px;
-            margin: 5%;
-    }[type=submit]{
-        background-color: f39237;
-        border-radius: 0.63rem;
-        padding: 10px  35px;
+    .main-login{
+        display: flex;
+        flex-direction: row;
         color: white;
-        margin-top: 10%;
-        font-weight: 580;
-    }
+        margin-top: -3%;
     
-}
-        a{
-            width: 30%;
-            margin-left: 1%;
+        h1{
+            margin-top: -7%;
+            font-size: 25px;
+            width: 210px;
+            text-align: center;
         }
 
-        img{
-            width: 100%;
+        .main-tittle-login{
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            align-items: center;
+        
+            form{
+               @extend .main-tittle-login;
+        
+                input{
+                    background-color: white;
+                    border-style: none;
+                    border-radius: 0.63rem;
+                    padding: 10px  35px;
+                    margin: 5%;
+            }[type=submit]{
+                background-color: f39237;
+                border-radius: 0.63rem;
+                padding: 10px  35px;
+                color: white;
+                margin-top: 10%;
+                font-weight: 580;
+            }
             
         }
-}
-
-
-
-
-.main-forgetlogin{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 10px;
-
-    .main-forgetlogin2 {
-        margin-top: 10%;
+                a{
+                    width: 30%;
+                    margin-left: 1%;
+                }
         
+                img{
+                    width: 100%;
+                    
+                }
+        
+                .main-forgetlogin{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    font-size: 10px;
+                
+                    .main-forgetlogin2 {
+                        margin-top: 10%;
+                        
+                    }
+                    .main-forgetlogin1, .main-forgetlogin2{
+                    font-weight:200;
+                }
+                }
+        }
+    
     }
-    .main-forgetlogin1, .main-forgetlogin2{
-    font-weight:200;
-}
+
+    .login-image-mc img{
+        height: 130%;
+        width: 100%;
+        border-radius: 0.44rem;
+        object-fit: cover;
+        object-position: center;
+    }
 }
 
 
-.login-image-mc img{
-    width: 100%;
-    border-radius: 0.63rem;
-    object-fit: cover;
-    object-position: center;
-}
+
+
+
+
 
 
 @include media-query-mobile() 
 {/* login para mobiles */
     
     #bodyLogin {
-        background-color: #1c77c3;
-    }
+        background-color: map-get($paleta_colores, azul_primario);
 
-    .main-login{
-        
-        display: flex;
-        color: white;
-        margin-top: 8%;
-    }
-
-    .login-image-mc img{
-        display: none;
-    }
-
-    .main-tittle-login form{
-        margin-top: 10%;
-
-        input{
-            padding: 20px  55px;
-        }
-
-        [type=submit]{
+        .main-login{
+            display: flex;
+            color:map-get($paleta_colores, blanco);
+            margin-top: 8%;
             
-            font-size: 17px;
+            .main-tittle-login {
+                h1{
+                    margin-top: 2%;
+                    font-size: 40px;
+                    width: 80%;
+                }
+        
+                img{
+                        margin-top: 15%;
+                        
+                    }
+                       }
+
+            .main-tittle-login form{
+                margin-top: 10%;
+                    
+                    input{
+                          padding: 20px  55px;
+                                            }
+                            [type=submit]{
+                                font-size: 17px;
+                                            }
+                        }
+                        
+                        .main-forgetlogin{
+                            margin-top: 5%;
+                            font-size: 12px;
+                        }
+        
+
         }
 
-    }
-
-    .main-forgetlogin{
-        margin-top: 5%;
-        font-size: 12px;
-    }
-
-    .main-tittle-login h1{
-        margin-top: 2%;
-        font-size: 40px;
-        width: 80%;
-    }
-
-    .main-tittle-login img{
-        margin-top: 15%;
-        
+            .login-image-mc img{
+                display: none;
+            }
+    
     }
 }
