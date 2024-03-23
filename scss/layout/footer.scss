@@ -287,10 +287,13 @@ nav{
 
     /* Diseño Responsive para pagina Select Prices */
 
-    .body-selectprices header{
+    .body-selectprices .h-Titules{
         display: flex;
         justify-content: center;
         font-size: 8px;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        text-align: center;
 
         a{
             width: 25;
@@ -305,6 +308,36 @@ nav{
             margin-left: 5%;
         }
     }
+
+        /* Diseño Responsive para Mobiles SelectPrices*/
+        .body-selectprices {
+            .navbar-collapse{
+                display: flex;
+                flex-direction: column ;
+                background-color: white !important;
+                padding: unset !important;
+                border-radius: 1.15rem;
+            }
+        }
+
+    // .body-selectprices header{
+    //     display: flex;
+    //     justify-content: center;
+    //     font-size: 8px;
+
+    //     a{
+    //         width: 25;
+    //         margin-left: 2%;
+    //     }
+
+    //     img{
+    //         width: 25;
+    //     }
+
+    //     h2{
+    //         margin-left: 5%;
+    //     }
+    // }
 
 
     /* Buscador de productos */
@@ -355,6 +388,14 @@ nav{
         text-align: center;
         width: 80%;
     }
+        /* Diseño Responsive para Mobiles Header ComparePrices */
+        #comparepricesPag .navbar-collapse{
+            display: flex;
+            flex-direction: column ;
+            background-color: white !important;
+            padding: unset !important;
+            border-radius: 1.15rem;
+        }
  }
 
     

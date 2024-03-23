@@ -232,36 +232,99 @@ body main {
 .body-selectprices {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 50px auto 50px;
+  grid-template-rows: auto auto auto;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
 }
 .body-selectprices header {
-  /* Estilo Header SelectPrices */
+  background-color: white;
+}
+.body-selectprices header #navbarNav .nav-link {
+  color: #1c77c3 !important;
+}
+.body-selectprices header nav ul a:active {
+  color: gray;
+}
+.body-selectprices header .collapse .navbar-collapse .d-flex .justify-content-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.body-selectprices header nav {
+  width: 100%;
+  font-size: small;
+  font-weight: 580;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  color: gray;
-  font-size: 13px;
-  background-color: white;
-  grid-area: header;
+  margin-top: unset;
+  position: fixed;
+  padding: 12px 10px;
+  background-color: #1c77c3;
 }
-.body-selectprices header a {
+.body-selectprices header nav img {
+  width: 50;
+  display: flex;
+  margin-left: 2%;
+}
+.body-selectprices header .image-header {
   width: 50;
   margin-left: 2%;
 }
-.body-selectprices header img {
-  width: 50;
+.body-selectprices header nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.body-selectprices header h2 {
-  margin-left: 5%;
+.body-selectprices header nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+}
+.body-selectprices header nav ul a:active {
+  color: gray;
+}
+.body-selectprices .header-menu-item1 {
+  margin-left: 10%;
+}
+.body-selectprices .header-menu-item2 {
+  margin-right: 1.5%;
+}
+.body-selectprices .header-menu-item2-botton a {
+  background-color: f39237;
+  border-radius: 0.63rem;
+  border-color: #f39237 !important;
+}
+.body-selectprices .header-menu-item2-botton a:hover {
+  background-color: white;
+  color: #f39237;
+  border-radius: 0.63rem;
+  border-color: #f39237;
 }
 .body-selectprices main {
   background-color: white;
   grid-area: main;
 }
 .body-selectprices footer {
-  background-color: white;
+  background-color: gray;
   grid-area: footer;
+  margin-top: 10%;
+  height: 40%;
+}
+.body-selectprices footer nav {
+  height: 100% !important;
+  width: 100%;
+  font-size: small;
+  font-weight: 580;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1% !important;
+  position: sticky;
+  justify-content: flex-start !important;
+  background-color: 444444;
 }
 
 /* Main Selectprices */
@@ -269,24 +332,46 @@ body main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 10%;
+}
+.main-selectprices .h-Titules {
+  /* Estilo Post Header SelectPrices */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: gray;
+  background-color: white;
+  grid-area: header;
+}
+.main-selectprices .h-Titules a {
+  width: 50;
+  margin-left: 2%;
+}
+.main-selectprices .h-Titules img {
+  width: 50;
+}
+.main-selectprices .h-Titules h2 {
+  margin-left: 32%;
+  font-size: 20px !important;
 }
 .main-selectprices .form-search {
   display: flex;
   justify-content: center;
-  margin-bottom: 15%;
+  margin-bottom: 7%;
 }
 .main-selectprices .form-search input {
   border-radius: 0.63rem;
   border-style: solid;
   padding: 10px 35px;
   font-style: italic;
+  font-size: 15px;
 }
 
 /* Items de buscar */
 .main-selectprices-items {
   display: flex;
   flex-direction: row;
-  font-size: 10px;
+  font-size: 10px !important;
   flex-wrap: wrap;
 }
 
@@ -296,7 +381,7 @@ body main {
   align-items: center;
   width: 31%;
   margin: 1%;
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 .selectprices-item1-image {
@@ -313,6 +398,13 @@ body main {
   flex-direction: column;
   margin-left: 1%;
 }
+.selectprices-item-1-content h3 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.selectprices-item-1-content p {
+  margin-top: -5%;
+}
 .selectprices-item-1-content form {
   display: flex;
   flex-direction: column;
@@ -322,9 +414,9 @@ body main {
   border-style: solid;
   padding: 3px 10px;
   width: 100%;
-  margin-bottom: 3%;
+  margin-bottom: unset;
   font-size: 11px;
-  margin-top: 5%;
+  margin-top: -5%;
 }
 .selectprices-item-1-content form input[type=number] {
   width: 30%;
@@ -333,6 +425,7 @@ body main {
   margin-bottom: 3%;
   border-style: ridge;
   font-size: 10px;
+  margin-top: 3%;
 }
 .selectprices-item-1-content form input[type=submit] {
   width: 50%;
@@ -360,6 +453,7 @@ body main {
   display: flex;
   justify-content: center;
   margin-top: 5%;
+  margin-bottom: 7%;
 }
 .main-selectprices-btn input {
   background-color: f39237;
@@ -381,9 +475,16 @@ body main {
 
 /* Pagina Compare Prices */
 #comparepricesPag header {
-  background-color: white !important;
+  background-color: white;
+}
+#comparepricesPag header #navbarNav .nav-link {
+  color: #1c77c3 !important;
+}
+#comparepricesPag header nav ul a:active {
+  color: gray;
 }
 #comparepricesPag main {
+  margin-top: 5%;
   background-color: white !important;
 }
 
@@ -637,20 +738,31 @@ footer nav ul a {
     padding: 10px;
   }
   /* Diseño Responsive para pagina Select Prices */
-  .body-selectprices header {
+  .body-selectprices .h-Titules {
     display: flex;
     justify-content: center;
     font-size: 8px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    text-align: center;
   }
-  .body-selectprices header a {
+  .body-selectprices .h-Titules a {
     width: 25;
     margin-left: 2%;
   }
-  .body-selectprices header img {
+  .body-selectprices .h-Titules img {
     width: 25;
   }
-  .body-selectprices header h2 {
+  .body-selectprices .h-Titules h2 {
     margin-left: 5%;
+  }
+  /* Diseño Responsive para Mobiles SelectPrices*/
+  .body-selectprices .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    background-color: white !important;
+    padding: unset !important;
+    border-radius: 1.15rem;
   }
   /* Buscador de productos */
   .main-selectprices .form-search input {
@@ -693,6 +805,14 @@ footer nav ul a {
   .main_tittle_comparprices h2 {
     text-align: center;
     width: 80%;
+  }
+  /* Diseño Responsive para Mobiles Header ComparePrices */
+  #comparepricesPag .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    background-color: white !important;
+    padding: unset !important;
+    border-radius: 1.15rem;
   }
 }
 

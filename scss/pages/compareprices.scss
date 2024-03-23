@@ -4,10 +4,25 @@
 /* Pagina Compare Prices */
 
 #comparepricesPag{
+    // header{
+    //     background-color: white !important;
+    // }
+
     header{
-        background-color: white !important;
+        background-color: white;
+
+        #navbarNav .nav-link {
+            color: #1c77c3 !important;
+        }
+        
+        nav ul a:active{
+            color: gray;
+        }
     }
+
+    
     main{
+        margin-top: 5%;
         background-color: white !important;
         // background-image: radial-gradient(circle,blue,brown);
 }  
